@@ -14,7 +14,6 @@
      --fs-xxl:48px;
      /* color */
      --prime-white:#fbfdff;
-     --light-white:#CACED1;
      --rich-black:#020D15;
      --white-op6:#98A1A9;
      --white-op7:#B0B6BB;
@@ -23,3 +22,83 @@
      --blue:#0389FF;
 
 }
+/* font-size */
+.fs-xsm{
+    font-size: var(--fs-xsm);
+}
+.fs-msm{
+    font-size:var(--fs-msm);
+}
+.fs-sm{
+    font-size: var(--fs-sm);
+}
+.fs-xmd{
+    font-size: var(--fs-xmd);
+}
+.fs-mmd{
+    font-size: var(--fs-mmd);
+}
+.fs-md{
+    font-size: var(--fs-md);
+}
+.fs-xlg{
+    font-size: var(--fs-xlg);
+}
+.fs-mlg{
+    font-size: var(--fs-mlg);
+}
+.fs-lg{
+    font-size:var(--fs-lg);
+}
+.fs-xl{
+    font-size: var(--fs-xl);
+}
+.fs-xxl{
+    font-size: var(--fs-xxl);
+}
+/* color */
+.prime-white{
+    color: var(--prime-white);
+}
+.rich-black{
+    color: var(--rich-black);
+}
+.white-op6{
+    color: var(--white-op6);
+}
+.white-op7{
+    color: var(--white-op7);
+}
+.white-op8{
+    color: var(--white-op8);
+}
+.white-op9{
+    color: var(--white-op9);
+}
+/* font-family */
+.ff-Jakarta{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.ff-Poppins{
+    font-family: 'Poppins', sans-serif;
+}
+/* font-weight */
+.fw-300{
+    font-weight: 300;
+}
+.fw-400{
+    font-weight: 400;
+}
+.fw-500{
+    font-weight: 500;
+}
+.fw-600{
+    font-weight: 600;
+}
+.fw-700 {
+    font-weight: 700;
+}
+.fw-400 {
+    font-weight: 400;
+}
+
