@@ -76,6 +76,9 @@
     color: var(--white-op9);
 }
 .bg_blue{
+    background-color: var(--blue);
+}
+.text_blue{
     color: var(--blue);
 }
 /* font-family */
