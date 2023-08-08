@@ -75,6 +75,9 @@
 .white-op9{
     color: var(--white-op9);
 }
+.bg_blue{
+    color: var(--blue);
+}
 /* font-family */
 .ff-Jakarta{
     font-family: 'Plus Jakarta Sans', sans-serif;
