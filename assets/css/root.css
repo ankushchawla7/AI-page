@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+:root{
+    /* fonts */
+     --fs-xsm:9px;
+     --fs-msm:10px;
+     --fs-sm:12px;
+     --fs-xmd:14px;
+     --fs-mmd:15px;
+     --fs-md:16px;
+     --fs-xlg:18px;
+     --fs-mlg:20px;
+     --fs-lg:32px;
+     --fs-xl:44px;
+     --fs-xxl:48px;
+     /* color */
+     --prime-white:#fbfdff;
+     --light-white:#CACED1;
+     --rich-black:#020D15;
+     --white-op6:#98A1A9;
+     --white-op7:#B0B6BB;
+     --white-op8:#C9D2DB;
+     --white-op9:#E5E7E9;
+     --blue:#0389FF;
+
+}
