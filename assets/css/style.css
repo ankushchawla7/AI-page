@@ -6,6 +6,7 @@
     list-style-type: none;
     text-decoration: none !important;
     box-sizing: border-box;
+    /* border: 1px solid red; */
 }
 
 .btn {
@@ -15,6 +16,7 @@
     box-shadow: 0px 4px 32px 0px rgba(39, 70, 237, 0.50);
     border: none;
 }
+
 .text-upper {
     text-transform: uppercase;
 }
@@ -81,33 +83,80 @@
 
 .bdr-none {
     border: none;
+}
+
+.doc-btn {
     border-radius: 44.988px;
     padding: 3.2px 15px;
 }
 
-
-.mt-76{
+.mt-76 {
     margin-top: 76px;
 }
-.pt-174{
+
+.pt-174 {
     padding-top: 174px;
 }
-.brder-r1{
+
+.brder-r1 {
     border-right: 1px solid #273138;
 }
-.bdr-b1{
+
+.bdr-b1 {
     border-bottom: 1px solid #273138;
 }
-.py-70{
+
+.py-70 {
     padding: 70px 0;
 }
-.pt-70{
+
+.pt-70 {
     padding-top: 70px;
 }
-.redact-icon-positons{
+
+.redact-icon-positons {
     right: 2%;
     bottom: 8%;
 }
-.mt-182{
+
+.mt-182 {
     margin-top: 182px !important;
+}
+
+.pb-56 {
+    padding-bottom: 56px;
+}
+
+.plan-py {
+    padding: 51px 0 23px 0;
+}
+
+.plan-card-padding {
+    padding: 58px 42px 87px 44px;
+}
+
+.select_butn {
+    padding: 13px 32px;
+    border-radius: 40px;
+}
+
+.border-1 {
+    border: 1px solid #B0B5B8;
+}
+
+.plan-card:hover .card-hoverbox>.card-value {
+    color:var(--blue) !important;
+}
+.plan-card:hover .butn-hover .select_butn{
+    background-color:#0061C0;
+    border: none;
+}
+.today{
+    background-image:url("../images/started-today-bg-img.png") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mt-155{
+    padding-top: 121px;
 }
