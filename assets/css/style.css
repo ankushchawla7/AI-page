@@ -13,12 +13,8 @@
     border-radius: 40px !important;
     background: linear-gradient(175deg, rgba(0, 136, 255, 0.58) 0%, #0069E3 100%);
     box-shadow: 0px 4px 32px 0px rgba(39, 70, 237, 0.50);
+    border: none;
 }
-
-.text-capital {
-    text-transform: capitalize;
-}
-
 .text-upper {
     text-transform: uppercase;
 }
@@ -43,9 +39,8 @@
     flex-shrink: 0;
     border-radius: 22px;
     border: 1px solid rgba(255, 255, 255, 0.10);
-    background:#011221;
+    background: #011221;
     backdrop-filter: blur(31.5px);
-    display: flex;
     justify-content: center;
     flex-direction: column;
 }
@@ -55,28 +50,64 @@
     border-radius: 5px;
 }
 
-.card-butn{
+.card-butn {
     border-radius: 44.988px;
-        background: linear-gradient(135deg, #0389FF 0%, #0069E3 100%);
+    background: linear-gradient(135deg, #0389FF 0%, #0069E3 100%);
 }
-.right-8{
+
+.right-8 {
     right: -8%;
 }
-.top-8{
+
+.top-8 {
     top: -8%;
 }
-.mt-75{
+
+.mt-75 {
     margin-top: 75px !important;
 }
-.card3-padding{
+
+.card3-padding {
     padding: 12px 7px 6px 10px;
 }
-.content-padding{
+
+.content-padding {
     padding: 3.3px 5.88px 2.09px 2.46px;
+}
+
+.bdr-radius_3 {
     border-radius: 3.999px;
 }
-.bdr-none{
+
+.bdr-none {
     border: none;
     border-radius: 44.988px;
     padding: 3.2px 15px;
+}
+
+
+.mt-76{
+    margin-top: 76px;
+}
+.pt-174{
+    padding-top: 174px;
+}
+.brder-r1{
+    border-right: 1px solid #273138;
+}
+.bdr-b1{
+    border-bottom: 1px solid #273138;
+}
+.py-70{
+    padding: 70px 0;
+}
+.pt-70{
+    padding-top: 70px;
+}
+.redact-icon-positons{
+    right: 2%;
+    bottom: 8%;
+}
+.mt-182{
+    margin-top: 182px !important;
 }
