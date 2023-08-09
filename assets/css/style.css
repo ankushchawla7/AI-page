@@ -151,12 +151,6 @@
     background-color:#0061C0;
     border: none;
 }
-.today{
-    background-image:url("../images/started-today-bg-img.png") ;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 .mt-155{
     padding-top: 121px;
 }
