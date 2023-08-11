@@ -5,7 +5,7 @@
     --fs-xsm: 9px;
     --fs-msm: 10px;
     --fs-sm: 12px;
-    --fs-lsm:13px;
+    --fs-lsm: 13px;
     --fs-xmd: 14px;
     --fs-mmd: 15px;
     --fs-md: 16px;
@@ -17,12 +17,16 @@
     /* color */
     --prime-white: #fbfdff;
     --rich-black: #020D15;
+    --white-op2:#344552;
+    --white-op5:#7F8A93;
     --white-op6: #98A1A9;
     --white-op7: #B0B5BB;
     --white-op8: #C9D2DB;
     --white-op9: #E5E7E9;
     --blue: #0389FF;
-    --tangaroa:#021F3A;
+    --tangaroa: #021F3A;
+    /* --light-grey:#13232F; */
+    --light-blue: #021727;
 
 }
 
@@ -38,9 +42,11 @@
 .fs-sm {
     font-size: var(--fs-sm);
 }
-.fs-lsm{
+
+.fs-lsm {
     font-size: var(--fs-lsm);
 }
+
 .fs-xmd {
     font-size: var(--fs-xmd);
 }
@@ -81,7 +87,12 @@
 .rich-black {
     color: var(--rich-black);
 }
-
+.white-op2{
+    color:var(--white-op2);
+}
+.white-op5{
+    color: var(--white-op5);
+}
 .white-op6 {
     color: var(--white-op6);
 }
@@ -109,6 +120,9 @@
 .bg_blue {
     background-color: var(--blue) !important;
 }
+.bg_light_blue{
+    background-color: var(--light-blue);
+}
 
 /* font-family */
 .ff-Jakarta {
@@ -116,7 +130,7 @@
 }
 
 .ff-Poppins {
-font-family: Poppins !important;
+    font-family: Poppins !important;
 }
 
 /* font-weight */
