@@ -5,7 +5,7 @@
     --fs-xsm: 9px;
     --fs-msm: 10px;
     --fs-sm: 12px;
-    --fs-lsm:13px;
+    --fs-lsm: 13px;
     --fs-xmd: 14px;
     --fs-mmd: 15px;
     --fs-md: 16px;
@@ -22,7 +22,7 @@
     --white-op8: #C9D2DB;
     --white-op9: #E5E7E9;
     --blue: #0389FF;
-    --tangaroa:#021F3A;
+    --tangaroa: #021F3A;
 
 }
 
@@ -38,9 +38,11 @@
 .fs-sm {
     font-size: var(--fs-sm);
 }
-.fs-lsm{
+
+.fs-lsm {
     font-size: var(--fs-lsm);
 }
+
 .fs-xmd {
     font-size: var(--fs-xmd);
 }
@@ -110,13 +112,17 @@
     background-color: var(--blue) !important;
 }
 
+.tangaroa {
+    background-color: var(--tangaroa);
+}
+
 /* font-family */
 .ff-Jakarta {
     font-family: Plus Jakarta Sans !important;
 }
 
 .ff-Poppins {
-font-family: Poppins !important;
+    font-family: Poppins !important;
 }
 
 /* font-weight */
