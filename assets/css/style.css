@@ -339,6 +339,32 @@ input::placeholder {
     opacity: 0.3;
     background: #06F;
     filter: blur(123.5px);
+    right: 20%;
+    top: 67%;
+}
+
+.plan-l-ellipse {
+    width: 416.224px;
+    height: 405.428px;
+    flex-shrink: 0;
+    border-radius: 416.224px;
+    opacity: 0.3;
+    background: #06F;
+    filter: blur(100px);
+    top: -30%;
+    left: -7%;
+}
+
+.plan-center-ellipse {
+    width: 537.685px;
+    height: 156.418px;
+    flex-shrink: 0;
+    border-radius: 537.685px;
+    opacity: 0.3;
+    background: #06F;
+    filter: blur(100px);
+    top: 20%;
+    left: 35%;
 }
 
 
