@@ -9,6 +9,11 @@
     /* border: 1px solid red; */
 }
 
+body,
+html {
+    overflow-x: hidden;
+}
+
 .btn {
     padding: 13px 32px;
     border-radius: 40px !important;
@@ -24,6 +29,7 @@
 .outer-card {
     width: 231px;
     height: 228px;
+    /* width: 100%; */
     display: flex;
     padding: 23.073px 20.519px 20.199px 21.121px;
     justify-content: center;
@@ -103,7 +109,7 @@
 }
 
 .bdr-b1 {
-    border-bottom: 1px solid #273138;
+    border-bottom: 1px solid #273138 !important;
 }
 
 .py-70 {
@@ -199,10 +205,17 @@ input {
     border-radius: 29px;
     background: rgba(251, 253, 255, 0.07);
     border: none;
+    /* background-color: none; */
+    height: 53px;
+    padding: 20px;
+}
+
+.email-box {
+    height: 53px;
 }
 
 .box {
-    width: 27%;
+    width: 75%;
     height: 53px;
     background-color: #13232D;
     border-radius: 29px;
@@ -211,9 +224,8 @@ input {
 .mail {
     background-color: unset;
     outline: none;
+    width: 100%;
 }
-
-.mail:active {}
 
 .sign {
     border-radius: 40px;
@@ -264,13 +276,89 @@ input::placeholder {
     padding-bottom: 27px;
 }
 
-.accordion-button.collapsed.img {
-    display: none !important;
+.work-card::after {
+    content: url("../images/svg/arrow.svg");
+    position: absolute;
+    right: 0;
+    display: none;
 }
 
-@media (max-width:576px) {
+.testimonial-l-ellipse {
+    width: 381.479px;
+    height: 395.788px;
+    flex-shrink: 0;
+    border-radius: 395.788px;
+    opacity: 0.3;
+    background: #06F;
+    filter: blur(123.5px);
+    top: 0;
+    left: 20%;
+}
+
+.testimonial-r-ellipse {
+    width: 433.455px;
+    height: 422.212px;
+    flex-shrink: 0;
+    border-radius: 433.455px;
+    opacity: 0.3;
+    background: #06F;
+    filter: blur(100px);
+    right: -8%;
+    top: 0;
+}
+
+.works-center-ellipse {
+    width: 362.394px;
+    height: 338.572px;
+    flex-shrink: 0;
+    border-radius: 362.394px;
+    opacity: 0.3;
+    background: #06F;
+    filter: blur(100px);
+    top: 30%;
+    left: 40%;
+}
+
+.integration-l-ellipse {
+    width: 416.224px;
+    height: 405.428px;
+    flex-shrink: 0;
+    border-radius: 416.224px;
+    opacity: 0.3;
+    background: #06F;
+    filter: blur(100px);
+    top: 15%;
+    left: -8%;
+}
+
+.integration-r-ellipse {
+    width: 381.479px;
+    height: 395.788px;
+    flex-shrink: 0;
+    border-radius: 395.788px;
+    opacity: 0.3;
+    background: #06F;
+    filter: blur(123.5px);
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width:576px) {
     .bdr-b1-sm-none {
-        border: none;
+        border-bottom: none !important;
+    }
+}
+
+@media (min-width:768px) {
+    .bdr-r1-md {
+        border-right: 1px solid #273138;
     }
 }
 
@@ -292,6 +380,22 @@ input::placeholder {
     }
 
     .bdr-b1-lg-none {
-        border-bottom: none;
+        border-bottom: none !important;
+    }
+
+    .mail {
+        width: 65%;
+    }
+
+    .box {
+        width: 42%;
+    }
+
+    .bdr-r1-lg {
+        border-right: 1px solid #273138;
+    }
+
+    .work-card::after {
+        display: block;
     }
 }
