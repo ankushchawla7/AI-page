@@ -214,7 +214,7 @@ input {
     height: 53px;
 }
 
-.box {
+.mbox {
     width: 75%;
     height: 53px;
     background-color: #13232D;
@@ -413,7 +413,7 @@ input::placeholder {
         width: 65%;
     }
 
-    .box {
+    .mbox {
         width: 42%;
     }
 
