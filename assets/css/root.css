@@ -157,3 +157,8 @@
 .fw-700 {
     font-weight: 700;
 }
+@media (min-width:768px) {
+    .fs-md-xl{
+        font-size: 44px;
+    }
+}
