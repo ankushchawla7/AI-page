@@ -1,0 +1,370 @@
+@import url("../css/root.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none !important;
+    box-sizing: border-box;
+    text-decoration: none !important;
+
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.bg-image {
+    background-image: url(../images/hero-bg-img.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.the-word::after {
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 60px;
+    top: 50%;
+    background-color: blue;
+    left: -4%;
+
+}
+
+.nav-underline::after {
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 45px;
+    bottom: 0;
+    background-color: blue;
+    left: 0;
+    background-color: transparent;
+
+}
+
+.nav-underline:hover::after {
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 45px;
+    bottom: 0;
+    background-color: blue;
+    left: 40%;
+
+}
+
+.button {
+    padding: 13px 32px;
+    border-radius: 40px;
+    background: linear-gradient(175deg, rgba(0, 136, 255, 0.58) 0%, #0069E3 100%);
+    box-shadow: 0px 4px 32px 0px rgba(39, 70, 237, 0.50);
+
+}
+
+.box {
+    position: absolute;
+    top: 76%;
+    height: 64px;
+    left: 9%;
+    width: 181px;
+    border: none;
+    border-radius: 12px;
+    background: rgba(3, 137, 255, 0.12);
+    backdrop-filter: blur(12px);
+
+
+}
+
+.box2 {
+    position: absolute;
+    bottom: -23%;
+    height: 64px;
+    left: 5%;
+    width: 181px;
+    border: none;
+    border-radius: 12px;
+    background: rgba(3, 137, 255, 0.12);
+    backdrop-filter: blur(12px);
+    display: none !important;
+
+}
+
+.box3 {
+    position: absolute;
+    top: 91%;
+    height: 64px;
+    right: 6%;
+    width: 181px;
+    border: none;
+    border-radius: 12px;
+    background: rgba(3, 137, 255, 0.12);
+    backdrop-filter: blur(12px);
+}
+
+.box4 {
+    position: absolute;
+    bottom: -40%;
+    height: 64px;
+    right: 28%;
+    width: 181px;
+    border: none;
+    border-radius: 12px;
+    background: rgba(3, 137, 255, 0.12);
+    backdrop-filter: blur(12px);
+}
+
+.padding-top {
+    padding-top: 89px;
+}
+
+.height {
+    min-height: 75vh;
+}
+
+.trasfrom {
+    transform: translateY(-150px);
+}
+
+.ab {
+    position: absolute;
+
+
+}
+
+.line {
+    position: absolute;
+    height: 123px;
+    width: 100%;
+    background-color: #020D15 !important;
+    mix-blend-mode: color;
+    top: 42%;
+
+}
+
+.ellipens {
+    position: absolute;
+    top: 12%;
+    width: 299.329px;
+    height: 303.657px;
+    border-radius: 303.657px;
+    opacity: 0.4;
+    background-color: #1673FF;
+    filter: blur(100px);
+    z-index: -1;
+}
+
+.slider-box {
+    width: 78%;
+    height: 200px;
+    border-radius: 12px;
+}
+
+.box1 {
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 12px;
+    background: rgba(3, 137, 255, 0.12);
+    backdrop-filter: blur(12px);
+
+}
+
+.box-2 {
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 14px;
+    background: rgba(35, 165, 102, 0.10);
+
+}
+
+.icon-box {
+    width: 400px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: transparent;
+
+}
+
+.icon-box:hover {
+    width: 400px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: #02264d !important;
+
+}
+
+.box-1 {
+    height: 32px;
+    width: 32px;
+
+
+}
+
+.text {
+    text-align: center;
+}
+
+.d-none {
+    display: none !important;
+}
+
+.accordion-button {
+    background-color: #02264d !important;
+    color: #0389ff !important;
+}
+
+
+
+.accordion-item {
+    border: none !important;
+    margin-bottom: 10px;
+    background-color: #02264d !important;
+    color: #b1bac2 !important;
+}
+
+
+.accordion-button:not(.collapsed) {
+
+    box-shadow: unset !important;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+
+@media (min-width:576px) {
+    .height {
+        min-height: 75vh;
+    }
+}
+
+@media (min-width:768px) {}
+
+@media (min-width:992px) {}
+
+@media (max-width:992px) {
+    label[for="iconbar"] {
+        width: 50px;
+        height: 40px;
+        flex-direction: column;
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+        z-index: 2;
+
+    }
+
+    label[for="iconbar"]>span {
+        width: 100%;
+        height: 5px;
+        background-color: #FFF;
+        z-index: 1;
+
+    }
+
+    .lg-screen {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: fixed;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        left: -100%;
+        background-color: black;
+        pointer-events: none;
+        z-index: 1;
+        opacity: 0;
+        transition: all 200ms;
+        top: 0;
+    }
+
+
+
+    input[type="checkbox"]:checked+ul.lg-screen {
+        left: 0;
+        pointer-events: all;
+        opacity: 1;
+    }
+}
+
+@media (min-width:1200px) {
+    .height {
+        min-height: 75vh;
+    }
+
+
+
+    .box {
+        position: absolute;
+        top: 35%;
+        height: 64px;
+        left: -6%;
+        width: 181px;
+        border: none;
+        border-radius: 12px;
+        background: rgba(3, 137, 255, 0.12);
+        backdrop-filter: blur(12px);
+
+    }
+
+    .box2 {
+        position: absolute;
+        bottom: 7%;
+        height: 64px;
+        left: -4%;
+        width: 181px;
+        border: none;
+        border-radius: 12px;
+        background: rgba(3, 137, 255, 0.12);
+        backdrop-filter: blur(12px);
+    }
+
+    .box3 {
+        position: absolute;
+        top: 50%;
+        height: 64px;
+        right: -6%;
+        width: 181px;
+        border: none;
+        border-radius: 12px;
+        background: rgba(3, 137, 255, 0.12);
+        backdrop-filter: blur(12px);
+    }
+
+    .box4 {
+        position: absolute;
+        bottom: -4%;
+        height: 64px;
+        right: 28%;
+        width: 181px;
+        border: none;
+        border-radius: 12px;
+        background: rgba(3, 137, 255, 0.12);
+        backdrop-filter: blur(12px);
+    }
+
+    .box1 {
+        height: 50px;
+        width: 50px;
+        border: none;
+        border-radius: 12px;
+        background: rgba(3, 137, 255, 0.12);
+        backdrop-filter: blur(12px);
+    }
+
+    .box-2 {
+        height: 50px;
+        width: 50px;
+        border: none;
+        border-radius: 14px;
+        background: rgba(35, 165, 102, 0.10);
+
+    }
+
+}
