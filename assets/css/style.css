@@ -24,6 +24,7 @@
 .outer-card {
     width: 231px;
     height: 228px;
+    /* width: 100%; */
     display: flex;
     padding: 23.073px 20.519px 20.199px 21.121px;
     justify-content: center;
@@ -103,7 +104,7 @@
 }
 
 .bdr-b1 {
-    border-bottom: 1px solid #273138;
+    border-bottom: 1px solid #273138 !important;
 }
 
 .py-70 {
@@ -199,10 +200,17 @@ input {
     border-radius: 29px;
     background: rgba(251, 253, 255, 0.07);
     border: none;
+    /* background-color: none; */
+    height: 53px;
+    padding: 20px;
+}
+
+.email-box {
+    height: 53px;
 }
 
 .box {
-    width: 27%;
+    width: 75%;
     height: 53px;
     background-color: #13232D;
     border-radius: 29px;
@@ -211,9 +219,8 @@ input {
 .mail {
     background-color: unset;
     outline: none;
+    width: 100%;
 }
-
-.mail:active {}
 
 .sign {
     border-radius: 40px;
@@ -264,10 +271,23 @@ input::placeholder {
     padding-bottom: 27px;
 }
 
-@media (max-width:576px) {
+.work-card::after {
+    content: url("../images/svg/arrow.svg");
+    position: absolute;
+    right: 0;
+    display: none;
+}
+
+
+
+@media (min-width:576px) {
     .bdr-b1-sm-none {
-        border: none;
+        border-bottom: none !important;
     }
+}
+@media (min-width:768px) {
+    .bdr-r1-md{
+    border-right: 1px solid #273138;    }
 }
 
 @media (min-width:576px) and (max-width:767.95px) {
@@ -288,6 +308,24 @@ input::placeholder {
     }
 
     .bdr-b1-lg-none {
-        border-bottom: none;
+        border-bottom: none !important;
     }
+
+    .mail {
+        width: 65%;
+    }
+
+    .box {
+        width: 42%;
+    }
+    .bdr-r1-lg{
+            border-right: 1px solid #273138;
+    }
+
+
+}
+@media (min-width:1400px) {
+        .work-card::after {
+                display: block;
+            }
 }

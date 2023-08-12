@@ -123,6 +123,10 @@
 .bg_light_blue{
     background-color: var(--light-blue);
 }
+.bg_tangaroa{
+    background-color: var(--tangaroa);
+}
+
 
 /* font-family */
 .ff-Jakarta {
