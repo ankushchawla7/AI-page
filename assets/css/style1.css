@@ -37,23 +37,16 @@
     position: absolute;
     content: "";
     height: 3px;
-    width: 45px;
+    width: 0;
     bottom: 0;
     background-color: blue;
     left: 0;
-    background-color: transparent;
+    transition: 300ms;
 
 }
 
 .nav-underline:hover::after {
-    position: absolute;
-    content: "";
-    height: 3px;
-    width: 45px;
-    bottom: 0;
-    background-color: blue;
-    left: 40%;
-
+    width: 100%;
 }
 
 .button {
@@ -94,9 +87,9 @@
 
 .box3 {
     position: absolute;
-    top: 91%;
+    top: 50%;
     height: 64px;
-    right: 6%;
+    right: -8%;
     width: 181px;
     border: none;
     border-radius: 12px;
@@ -120,9 +113,7 @@
     padding-top: 89px;
 }
 
-.height {
-    min-height: 75vh;
-}
+
 
 .trasfrom {
     transform: translateY(-150px);
@@ -153,7 +144,39 @@
     opacity: 0.4;
     background-color: #1673FF;
     filter: blur(100px);
-    z-index: -1;
+    z-index: 1;
+}
+
+.ellipens_right {
+    position: absolute;
+    top: 23%;
+    width: 299.329px;
+    height: 303.657px;
+    border-radius: 303.657px;
+    opacity: 0.4;
+    right: 0;
+    background-color: #1673FF;
+    filter: blur(100px);
+
+    z-index: 1;
+}
+
+.accordion-button.collapsed img {
+    display: none;
+}
+
+.ellipens_left {
+    position: absolute;
+    top: 23%;
+    width: 299.329px;
+    height: 303.657px;
+    border-radius: 303.657px;
+    opacity: 0.4;
+    left: 0;
+    background-color: #1673FF;
+    filter: blur(100px);
+
+    z-index: 1;
 }
 
 .slider-box {
@@ -170,6 +193,23 @@
     background: rgba(3, 137, 255, 0.12);
     backdrop-filter: blur(12px);
 
+}
+
+.slick-dots li button:before {
+    font-family: slick;
+    font-size: 36px;
+    line-height: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 1px;
+    content: '•';
+    text-align: center;
+    opacity: .2;
+    color: #fff !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .box-2 {
@@ -236,16 +276,18 @@
     width: 100%;
 }
 
-
-@media (min-width:576px) {
-    .height {
-        min-height: 75vh;
-    }
+.height {
+    min-height: 75vh;
 }
 
-@media (min-width:768px) {}
 
-@media (min-width:992px) {}
+@media (min-width:576px) {
+    .slider-box {
+        width: 78%;
+        height: 200px;
+        border-radius: 12px;
+    }
+}
 
 @media (max-width:992px) {
     label[for="iconbar"] {
@@ -295,7 +337,7 @@
 
 @media (min-width:1200px) {
     .height {
-        min-height: 75vh;
+        min-height: 70vh;
     }
 
 
@@ -325,17 +367,7 @@
         backdrop-filter: blur(12px);
     }
 
-    .box3 {
-        position: absolute;
-        top: 50%;
-        height: 64px;
-        right: -6%;
-        width: 181px;
-        border: none;
-        border-radius: 12px;
-        background: rgba(3, 137, 255, 0.12);
-        backdrop-filter: blur(12px);
-    }
+
 
     .box4 {
         position: absolute;
