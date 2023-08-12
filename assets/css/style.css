@@ -9,6 +9,11 @@
     /* border: 1px solid red; */
 }
 
+body,
+html {
+    overflow-x: hidden;
+}
+
 .btn {
     padding: 13px 32px;
     border-radius: 40px !important;
@@ -278,6 +283,71 @@ input::placeholder {
     display: none;
 }
 
+.testimonial-l-ellipse {
+    width: 381.479px;
+    height: 395.788px;
+    flex-shrink: 0;
+    border-radius: 395.788px;
+    opacity: 0.3;
+    background: #06F;
+    filter: blur(123.5px);
+    top: 0;
+    left: 20%;
+}
+
+.testimonial-r-ellipse {
+    width: 433.455px;
+    height: 422.212px;
+    flex-shrink: 0;
+    border-radius: 433.455px;
+    opacity: 0.3;
+    background: #06F;
+    filter: blur(100px);
+    right: -8%;
+    top: 0;
+}
+
+.works-center-ellipse {
+    width: 362.394px;
+    height: 338.572px;
+    flex-shrink: 0;
+    border-radius: 362.394px;
+    opacity: 0.3;
+    background: #06F;
+    filter: blur(100px);
+    top: 30%;
+    left: 40%;
+}
+
+.integration-l-ellipse {
+    width: 416.224px;
+    height: 405.428px;
+    flex-shrink: 0;
+    border-radius: 416.224px;
+    opacity: 0.3;
+    background: #06F;
+    filter: blur(100px);
+    top: 15%;
+    left: -8%;
+}
+
+.integration-r-ellipse {
+    width: 381.479px;
+    height: 395.788px;
+    flex-shrink: 0;
+    border-radius: 395.788px;
+    opacity: 0.3;
+    background: #06F;
+    filter: blur(123.5px);
+}
+
+
+
+
+
+
+
+
 
 
 @media (min-width:576px) {
@@ -285,9 +355,11 @@ input::placeholder {
         border-bottom: none !important;
     }
 }
+
 @media (min-width:768px) {
-    .bdr-r1-md{
-    border-right: 1px solid #273138;    }
+    .bdr-r1-md {
+        border-right: 1px solid #273138;
+    }
 }
 
 @media (min-width:576px) and (max-width:767.95px) {
@@ -318,14 +390,14 @@ input::placeholder {
     .box {
         width: 42%;
     }
-    .bdr-r1-lg{
-            border-right: 1px solid #273138;
+
+    .bdr-r1-lg {
+        border-right: 1px solid #273138;
     }
 
+    .work-card::after {
+        display: block;
+    }
+}
 
-}
-@media (min-width:1400px) {
-        .work-card::after {
-                display: block;
-            }
-}
+@media (min-width:1400px) {}
