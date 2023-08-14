@@ -340,9 +340,6 @@
     .height {
         min-height: 70vh;
     }
-
-
-
     .box {
         position: absolute;
         top: 35%;
@@ -401,10 +398,6 @@
     }
 
 }
-
-
-
-
 /* last 7 section classes */
 body,
 html {
@@ -763,16 +756,6 @@ input::placeholder {
     top: 20%;
     left: 35%;
 }
-
-
-
-
-
-
-
-
-
-
 @media (min-width:576px) {
     .bdr-b1-sm-none {
         border-bottom: none !important;
