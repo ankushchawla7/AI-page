@@ -669,7 +669,7 @@ input::placeholder {
 .work-card::after {
     content: url("../images/svg/arrow.svg");
     position: absolute;
-    right: 0;
+    right: -19px;
     display: none;
 }
 
