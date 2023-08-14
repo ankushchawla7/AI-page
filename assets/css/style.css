@@ -783,6 +783,12 @@ input::placeholder {
     .bdr-r1-md {
         border-right: 1px solid #273138;
     }
+    .fs-md-xl{
+        font-size: var(--fs-xl);
+    }
+    .fs-md-xxl{
+        font-size: var(--fs-xxl);
+    }
 }
 
 @media (min-width:576px) and (max-width:767.95px) {
